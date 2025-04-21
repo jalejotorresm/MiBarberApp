@@ -1,0 +1,302 @@
+/* Generales */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(129, 128, 128);
+}
+
+/* Encabezado y menu */
+
+.cabeza {
+  background-color: #4a86e8ff;
+}
+
+.titulo {
+  background-color: #4a86e8ff;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  color: white;
+}
+
+.titulo h1 {
+  padding: 0.5em 0 0.5em 0;
+}
+
+.menu {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #4a86e8ff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.menu a:hover {
+  color: black;
+}
+
+/* Inicio */
+
+.ofertas {
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 0.25em;
+}
+
+.oferta-fila1 {
+  display: flex;
+  flex-direction: row;
+  height: 42.22vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.oferta-fila2 {
+  display: flex;
+  flex-direction: row;
+  height: 42.22vh;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 0.25em;
+}
+
+#oferta1,
+#oferta2,
+#oferta3 {
+  background-color: #c9daf8ff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Productos */
+
+.productos {
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 0.25em;
+}
+
+.categorias {
+  padding: 0.5rem;
+  background-color: #c9daf8ff;
+  display: flex;
+  flex-direction: column;
+  height: 41.5vh;
+  justify-content: space-around;
+  row-gap: 0.25em;
+}
+
+#categoria-tarjetas {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 0.25em;
+}
+
+.tarjeta1,
+.tarjeta2,
+.tarjeta3,
+.tarjeta4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black 1px solid;
+  border-radius: 1em;
+}
+
+.destacados {
+  display: flex;
+  flex-direction: row;
+  height: 41.5vh;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 0.25em;
+}
+
+#producto1,
+#producto2 {
+  background-color: #c9daf8ff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* registro y login */
+
+.registro-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 0.25em;
+}
+
+.registro,
+.login {
+  background-color: #c9daf8ff;
+  width: 100%;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.registro-texto,
+.login-texto {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.registro-data form,
+.login-data form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.registro-data input,
+.login-data input {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5em;
+  border: none;
+  padding: 0.5em;
+  background-color: white;
+  color: #999999;
+}
+
+.registro-data button,
+.login-data button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 9999px;
+  border: none;
+  padding: 0.5em;
+  background-color: #4a86e8ff;
+  color: white;
+}
+
+.registro-externo a,
+.login-externo a,
+.reinicio a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.registro-externo a:hover,
+.login-externo a:hover,
+.reinicio a:hover {
+  color: #4a86e8ff;
+}
+
+/* Contacto */
+
+.contacto {
+  width: 100%;
+  height: 86vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 0.25em;
+}
+
+.accion {
+  background-color: #c9daf8ff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.mensaje-accion {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.formulario {
+  background-color: #c9daf8ff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.formulario-data form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.formulario-data input {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5em;
+  border: none;
+  padding: 0.5em;
+  background-color: white;
+  color: #999999;
+}
+
+.formulario-data textarea {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5em;
+  border: none;
+  padding: 0.5em;
+  background-color: white;
+  color: #999999;
+  resize: vertical;
+  height: 10vh;
+}
+
+.formulario-data button {
+  width: 25%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 9999px;
+  border: none;
+  padding: 0.5em;
+  background-color: #4a86e8ff;
+  color: white;
+}
